@@ -1,0 +1,82 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #222;
+    color: #ddd;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ff416c;
+    text-decoration: none;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Sección de Productos */
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #ff416c;
+}
+
+.card-title {
+    color: #ff4b2b;
+    font-size: 1.5rem;
+}
+
+/* Botones Personalizados */
+.btn-custom {
+    background-color: #ff416c;
+    border: none;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #ff4b2b;
+}
+
+/* Pie de Página */
+footer p {
+    margin: 0;
+}
+
+.footer-links a {
+    margin: 0 10px;
+}
